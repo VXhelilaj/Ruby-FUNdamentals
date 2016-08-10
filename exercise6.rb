@@ -25,3 +25,9 @@ puts ""
 element_list.sort.each do |element|
 puts "* #{element}"
 end
+
+puts element_list
+element_list.delete_at(16)
+element_list.delete_at(15)
+puts ""
+puts element_list
