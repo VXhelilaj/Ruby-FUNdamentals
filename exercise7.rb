@@ -2,7 +2,6 @@ students = {
   :cohort1 => 34,
   :cohort2 => 42,
   :cohort3 => 22,
-  :cohort4 => 43
 }
 
 students.each do |k, v|
@@ -13,5 +12,10 @@ puts ""
 
 students[:cohort4] = 43
 
-
 puts students.keys
+
+puts ""
+
+students.each do |k, v|
+  puts ":#{k}, #{v.to_i * 1.05.to_i} students"
+end
