@@ -13,3 +13,5 @@ if element_list.include?('Banana') == false
 else
   puts "Where did that banana come from?"
 end
+
+puts element_list.at(1)
