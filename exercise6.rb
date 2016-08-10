@@ -17,7 +17,5 @@ end
 puts element_list.at(1)
 
 element_list.each do |element|
-
 puts "* #{element}"
-
 end
