@@ -9,7 +9,7 @@ puts element_list.length
 element_list.include?('Banana')
 
 if element_list.include?('Banana') == false
-  puts "No bananas on this list hombre"
+  puts "No bananas on this list hombre!"
 else
   puts "Where did that banana come from?"
 end
