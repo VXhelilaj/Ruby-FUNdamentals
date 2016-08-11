@@ -27,3 +27,7 @@ students.delete(:cohort2)
 students.each do |k, v|
   puts ":#{k}, #{v + (v*0.05).to_i} students"
 end
+
+
+
+p students.inject(0) {|sum, tuple| sum += tuple[1]}
