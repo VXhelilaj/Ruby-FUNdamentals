@@ -17,5 +17,5 @@ puts students.keys
 puts ""
 
 students.each do |k, v|
-  puts ":#{k}, #{v.to_i * 1.05.to_i} students"
+  puts ":#{k}, #{v + (v*0.05).to_i} students"
 end
