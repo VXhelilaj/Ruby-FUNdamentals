@@ -23,9 +23,7 @@ end
 
 puts ""
 
-students[:cohort2] = nil
-if {:cohort2 => nil}
-  puts "cohort1, cohort3, cohort4"
-else
-  puts "#{students}"
+students.delete(:cohort2)
+students.each do |k, v|
+  puts ":#{k}, #{v + (v*0.05).to_i} students"
 end
